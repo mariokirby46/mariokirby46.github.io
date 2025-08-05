@@ -1,0 +1,37 @@
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <article>
+          <h1>Hello World</h1>
+          <h3><i>Hosted with GitHub Pages.</i></h3>
+          <p>
+              For awhile now I've know that it is possible to just host a website off of Github directly, and I've also wanted to have a little website for myself, as a sort of mini journal.<br/>
+              As such, that starts today with this landing page :D
+          </p>
+          <p>I think as a list of things to do, I want to:
+              <ul>
+                  <li>Write journal entries, like a little blog</li>
+                  <li>Turn this into a React app, just so I can flex my coding skills a little. (Credit to <a className="App-link" href="https://github.com/gitname/react-gh-pages">this repo</a> showing me its possible)</li>
+              </ul>
+          </p>
+          <p>
+              I'm writing this in plain HTML for now, and I've realised that:
+              <ol type="A">
+                <li>I need to break lines myself XD</li>
+                <li>It's quite a hassle to insert tab indents in paragraphs, not that I've put any yet, but I'm sure I will in the future.</li>
+                <li>Using new paragraphs and breaklines leads to different formatting, obviously cause I haven't used any CSS styling, but just with the default HTML.</li>
+              </ol>
+              But that's all for now, see yall!
+          </p>
+          <i>Hillman</i>
+        </article>
+        
+      </header>
+    </div>
+  );
+}
+
+export default App;
